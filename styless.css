@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .card{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:#1E90FF;
+  }
+  .content{
+    height: 71%;
+    width: 70%;
+    background-color:hsl(240, 100%, 40%);
+    border: 4px solid #00BFFF;
+    display: flex;
+    flex-direction: column;
+    
+    
+    padding: 36px 36px 35px 36px; 
+  }
+  .heading{
+    height: 40%;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    margin:2.3rem;
+    /* padding: 34px 40px 34px 33px; */
+    
+    
+  }
+  h1{
+    font-size: 30px;
+    font-weight: bold;
+    color:white;
+    
+    
+  }
+  p{
+    color:white;
+    font-weight: 20;
+    font-size:17px;
+    gap:10px;
+    padding-left:103px;
+    padding-right: 100px;
+  }
+  .formbody{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    
+    
+  }
+  #f{
+    width:78%;
+    border: none; 
+    color: #1E90FF;
+    border-bottom: 2px solid #1E90FF;
+    background-color: #0000CD;
+  }
+  #but{
+    border:1.2px solid white;
+    color:white;
+    font-weight: bold;
+    font-size: 15px;
+    background-color:#0000CD;
+    text-decoration: none;
+    padding: 0.9rem 1.8rem;
+  }
+  #but:active{
+    box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
+  }
